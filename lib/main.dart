@@ -111,6 +111,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
           child: Column(
             children: [
               Expanded(
+                flex: 4,
                 child: Container(
                   width: double.infinity,
                   padding: const EdgeInsets.all(20),
